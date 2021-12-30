@@ -1,5 +1,5 @@
 Config = Config or {}
-Config.MinimumDrugSalePolice = 2
+Config.MinimumDrugSalePolice = 0
 
 Config.Products = {
     [1] = {
@@ -134,16 +134,16 @@ Config.DrugsPrice = {
         max = 40,
     },
     ["crack_baggy"] = {
-        min = 18,
-        max = 34,
+        min = 35,
+        max = 60,
     },
     ["cokebaggy"] = {
-        min = 18,
-        max = 37,
+        min = 25,
+        max = 50,
     },
     ["meth"] = {
-        min = 18,
-        max = 40,
+        min = 20,
+        max = 45,
     },
 }
 
